@@ -5,7 +5,7 @@ let hoursRadius;
 let clockDiameter;
 
 function setup(){
-createCanvas(windowWidth, windowHeight);
+createCanvas(250, 250);
   stroke(255);
 
   let radius = min(width, height) / 2;
@@ -63,6 +63,6 @@ function draw(){
   endShape();
 }
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
+// function windowResized() {
+//   resizeCanvas(windowWidth, windowHeight);
+// }
